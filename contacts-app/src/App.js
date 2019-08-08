@@ -1,9 +1,12 @@
 import React from 'react';
 
+import contactsAtrray from './mockContacts';
+import ListContacts from './ListContacts';
+
 function App() {
   return (
-    <div className="App">
-      Hello World
+    <div>
+      <ListContacts contacts={contactsAtrray} />
     </div>
   );
 }
